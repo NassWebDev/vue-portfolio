@@ -11,7 +11,7 @@
                 <a href="mailto:mr.nedjar.nassim@gmail.com">
                     Contactez-moi !!!
                 </a>
-                <img src="../../assets/kaydensmile.png" alt="kayden">
+                <img src="../../assets/kaydensmile.webp" alt="kayden">
             </div>
         </div>
         <footer>

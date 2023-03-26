@@ -1,6 +1,6 @@
 <template>
     <section id="accueil">
-        <img src="../../assets/kayden.png" alt="kayden">
+        <img src="../../assets/kaydencats.webp" alt="kayden">
         <div class="left">
             <p>
             Bonjour,
