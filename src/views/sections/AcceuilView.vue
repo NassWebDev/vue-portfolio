@@ -65,6 +65,7 @@ section{
 
     img{
         width: 500px;
+        height: 200px;
         object-fit: contain;
         margin-top: -150px;
     }
