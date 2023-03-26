@@ -2,6 +2,7 @@
   <NavBar :navItems="navItems" :links="links" :isActive="isActive"/>
   <ListSections :isActive="isActive" @hide="notAactive"/>
   <BtnMenu @open="active" :isActive="isActive"/>
+  <BtnTop/>
 </template>
 
 <script setup>
@@ -9,6 +10,7 @@ import { ref } from 'vue';
 import NavBar from './views/NavBar.vue'
 import ListSections from './views/ListSections.vue'
 import BtnMenu from './components/BtnMenu.vue'
+import BtnTop from './components/BtnTop.vue'
 
 const isActive = ref(false)
 
