@@ -1,5 +1,5 @@
 <template>
-  <div class="menu" @click="isOpen">
+  <div class="menuOpen" @click="isOpen">
     <div class="menuBtn">
       <div class="bar1"></div>
       <div class="bar2"></div>
@@ -18,8 +18,8 @@ const isOpen = (() => {
 })
 </script>
 
-<style lang="scss">
-.menu{
+<style lang="scss" scoped>
+.menuOpen{
   display: none;
 
   .menuBtn {
