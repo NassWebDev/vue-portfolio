@@ -12,10 +12,10 @@
                     <header>
                         <fa icon="fa-regular fa-folder" class="folder"/>
                         <div class="external">
-                            <a v-if="project.github" :href=project.github target="_blank">
+                            <a v-if="project.github" :href=project.github target="_blank" aria-label="github">
                                 <fa icon="fa-brands fa-square-github" />
                             </a>
-                            <a v-if="project.link" :href=project.link target="_blank">
+                            <a v-if="project.link" :href=project.link target="_blank" aria-label="link">
                                 <fa icon="fa-solid fa-arrow-up-right-from-square" />
                             </a>
                         </div>

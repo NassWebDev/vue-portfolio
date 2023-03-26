@@ -18,7 +18,7 @@
             </p>
         </div>
         <div class="go-down">
-            <router-link to="/apropos"  @click="goToSection('apropos')">
+            <router-link to="/apropos"  @click="goToSection('apropos')" aria-label="apropos">
                 <span class="box">
                     <span class="point"></span>
                 </span>
