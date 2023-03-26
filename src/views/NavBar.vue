@@ -66,6 +66,7 @@ aside{
 
         img{
             width: 180px;
+            height: 180px;
             border-radius: 50%;
             user-select: none;
         }
