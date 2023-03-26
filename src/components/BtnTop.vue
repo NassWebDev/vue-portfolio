@@ -1,9 +1,11 @@
 <template>
-    <div class="menuTop" ref="menuTop" :class="{menuShow: !isScrolling}" @click="goToTop">
-        <div class="btn">
-            <fa icon="fa-solid fa-angle-up" />
+    <transition name="fade">
+        <div v-show="isScrolling" class="menuTop" ref="menuTop" @click="goToTop">
+            <div class="btn">
+                <fa icon="fa-solid fa-angle-up" />
+            </div>
         </div>
-    </div>
+    </transition>
 </template>
 
 <script setup>
@@ -31,12 +33,28 @@ const handleScroll = (() => {
     }
     else{
         isScrolling.value = false;
-        console.log(scrollY);
     }
 })
 </script>
 
 <style lang="scss" scoped>
+.fade-enter-active,
+.fade-leave-active {
+    transition: all 1s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+.fade-enter-to,
+.fade-leave-from {
+    transform: scale(1);
+    opacity: 1;
+}
+
 .menuTop{
     width: 50px;
     height: 50px;
@@ -68,8 +86,7 @@ const handleScroll = (() => {
         }
     }
 }
-.menuShow{
-    display: none;
-
-}
+// .menuShow{
+//     display: none;
+// }
 </style>
