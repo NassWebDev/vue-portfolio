@@ -15,7 +15,7 @@
         <footer>
             <ul>
                 <li v-for="alink in links" :key="alink.name">
-                    <a :href=alink.link target="_blank">
+                    <a :href=alink.link target="_blank" :aria-label=alink.name>
                         <fa :icon="`fa-` + alink.type + ` fa-` + alink.name"/>
                     </a>
                 </li>
@@ -94,9 +94,9 @@ aside{
                 color: var(--white);
 
                 &:hover{
-                color: var(--green);
-                cursor: pointer;
-            }
+                    color: var(--green);
+                    cursor: pointer;
+                }
             }
         }
     }
