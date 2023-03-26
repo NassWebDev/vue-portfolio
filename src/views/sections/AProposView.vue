@@ -130,6 +130,7 @@ section{
 
                     img{
                         width: 30px;
+                        height: 30px;
                         color: white;
                     }
                 }
