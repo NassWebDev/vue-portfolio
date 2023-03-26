@@ -51,7 +51,8 @@ const projects = ref([
         languages: [
             "Vuejs"
         ],
-        image: "../../assets/portfolio.png"
+        github: "https://github.com/NassWebDev/vue-portfolio",
+        link: "https://vue-portfolio-eta.vercel.app"
     },
     {
         name: "Recipe App",
