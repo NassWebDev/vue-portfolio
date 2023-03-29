@@ -46,7 +46,7 @@ const isOpen = (() => {
 }
 
 @media screen and (max-width: 768px) {
-  .menu{
+  .menuOpen{
     display: block;
   }
 }
