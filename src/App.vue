@@ -1,6 +1,6 @@
 <template>
   <NavBar :navItems="navItems" :links="links" :isActive="isActive"/>
-  <ListSections :isActive="isActive" @hide="notAactive"/>
+  <ListSections :isActive="isActive" @hide="notAactive" :class="{block: isActive}"/>
   <BtnMenu @open="active" :isActive="isActive"/>
   <BtnTop/>
 </template>
@@ -58,3 +58,30 @@ const notAactive = ((close) => {
   isActive.value = close
 })
 </script>
+
+<style>
+:root {
+  /* CSS variable for body's width */
+  --navbar-body: 300px;
+  --white: #ccd6f6;
+  --green: #64ffda;
+  --dark-blue: #051329;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Courier, monospace;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.block{
+  position: fixed;
+}
+</style>
