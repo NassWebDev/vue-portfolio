@@ -1,6 +1,6 @@
 <template>
   <NavBar :navItems="navItems" :links="links" :isActive="isActive"/>
-  <ListSections :isActive="isActive" @hide="notAactive" :class="{block: isActive}"/>
+  <ListSections :isActive="isActive" @hide="notAactive"/>
   <BtnMenu @open="active" :isActive="isActive"/>
   <BtnTop/>
 </template>
@@ -79,9 +79,5 @@ const notAactive = ((close) => {
   width: 100%;
   height: 100%;
   display: flex;
-}
-
-.block{
-  position: fixed;
 }
 </style>
