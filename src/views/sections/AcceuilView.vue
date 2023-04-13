@@ -5,17 +5,20 @@
             <p>
             Bonjour,
             </p>
-            <div class="name">
-                <p>
-                    Je suis <span>Nassim</span>
-                </p>
-            </div>
+            <p>
+                Je suis <span>Nassim</span>
+            </p>
             <p>
                 Développeur <span>Front-End</span>
             </p>
-            <p>
-                Actuellement en recherche d'alternance / d'école.
-            </p>
+            <div class="school">
+                <p>
+                    Actuellement en recherche d'alternance.
+                </p>
+                <p>
+                    Étudiant en Bachelor Développement fullstack & DevOps à IPSSI.(2023/2024)
+                </p>
+            </div>
         </div>
         <div class="go-down">
             <router-link to="/apropos"  @click="goToSection('apropos')" aria-label="apropos">
@@ -61,6 +64,13 @@ section{
         span{
             color: var(--green);
         }
+
+        .school{
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+        } 
     }
 
     img{
