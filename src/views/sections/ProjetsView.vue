@@ -10,13 +10,13 @@
             <ul class="list-projects">
                 <li class="project" v-for="project in projects" :key="project.name">
                     <header>
-                        <fa icon="fa-regular fa-folder" class="folder"/>
+                        <fa name="fa-regular-folder" class="folder" scale="1.5"/>
                         <div class="external">
                             <a v-if="project.github" :href=project.github target="_blank" aria-label="Github">
-                                <fa icon="fa-brands fa-square-github" />
+                                <fa name="si-github" scale="1.2"/>
                             </a>
                             <a v-if="project.link" :href=project.link target="_blank" aria-label="Link">
-                                <fa icon="fa-solid fa-arrow-up-right-from-square" />
+                                <fa name="hi-external-link" scale="1.2"/>
                             </a>
                         </div>
                     </header>
@@ -58,11 +58,12 @@ const projects = ref([
         name: "Recipe App",
         description: "Un site permettant d'ajouter différentes recettes et codé avec Vuejs et Firebase.",
         languages: [
-            "Vuejs(Router, VueX)",
-            "Firebase"
+            "MongoDB",
+            "ExpressJS",
+            "VueJS(Router, Pinia)",
+            "NodeJS"
         ],
-        github: "https://github.com/NassWebDev/Vue-Recipe",
-        link: "https://vue-prj-recipes.web.app"
+        github: "https://github.com/NassWebDev/recipe-app"
     },
     {
         name: "To-Do List",
