@@ -77,4 +77,16 @@ const notAactive = ((close) => {
   height: 100%;
   display: flex;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--dark-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--green); 
+}
 </style>
