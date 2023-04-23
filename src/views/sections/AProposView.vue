@@ -13,7 +13,7 @@
                 </h2>
                 <ul class="front-end">
                     <li v-for="front in frontEnd" :key="front.name">
-                        <fa :icon="`fa-brands fa-` + front.icon" />
+                        <fa :name=front.icon scale="1.8"/>
                         <p>{{ front.name }}</p>
                     </li>
                 </ul>
@@ -22,8 +22,7 @@
                 </h2>
                 <ul class="back-end">
                     <li v-for="back in backEnd" :key="back.name">
-                        <fa v-if="back.icon" :icon="`fa-brands fa-` + back.icon" />
-                        <img v-else src="../../assets/firebase.svg" alt="firebase">
+                        <fa :name=back.icon scale="1.8"/>
                         <p>{{ back.name }}</p>
                     </li>
                 </ul>
@@ -38,33 +37,46 @@ import { ref } from 'vue';
 const frontEnd = ref([
     {
         name: "HTML",
-        icon: 'html5'
+        icon: 'fa-html5'
     },
     {
         name: "CSS",
-        icon: 'css3-alt'
+        icon: 'fa-css3-alt'
     },
     {
         name: "Sass",
-        icon: 'sass'
+        icon: 'fa-sass'
     },
     {
         name: "JavaScript",
-        icon: 'js'
+        icon: 'si-javascript'
     },
     {
         name: "VueJs",
-        icon: 'vuejs'
+        icon: 'fa-vuejs'
     }
 ])
 
 const backEnd = ref([
 {
         name: "PHP",
-        icon: 'php'
+        icon: 'fa-php'
     },
     {
-        name: "Firebase"
+        name: "Firebase",
+        icon: 'si-firebase'
+    },
+    {
+        name: "MongoDB",
+        icon: 'si-mongodb'
+    },
+    {
+        name: "Express",
+        icon: 'si-express'
+    },
+    {
+        name: "NodeJS",
+        icon: 'fa-node'
     }
 ])
 </script>
@@ -126,12 +138,6 @@ section{
 
                     svg{
                         font-size: 30px;
-                    }
-
-                    img{
-                        width: 30px;
-                        height: 30px;
-                        color: white;
                     }
                 }
             }
