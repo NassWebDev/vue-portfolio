@@ -34,19 +34,16 @@ const navItems = ref([
 ])
 const links = ref([
   {
-    name: "square-github",
-    link: "https://github.com/NassWebDev",
-    type: "brands"
+    name: "si-github",
+    link: "https://github.com/NassWebDev"
   },
   {
-    name: "linkedin",
-    link: "https://www.linkedin.com/in/nassim-nedjar/",
-    type: "brands"
+    name: "fa-linkedin",
+    link: "https://www.linkedin.com/in/nassim-nedjar/"
   },
   {
-    name: "envelope",
-    link: "mailto:mr.nedjar.nassim@gmail.com",
-    type: "solid"
+    name: "fa-envelope",
+    link: "mailto:mr.nedjar.nassim@gmail.com"
   },
 ])
 
