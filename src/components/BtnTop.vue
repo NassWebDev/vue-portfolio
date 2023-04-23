@@ -2,7 +2,7 @@
     <transition name="fade">
         <div v-show="isScrolling" class="menuTop" ref="menuTop" @click="goToTop">
             <div class="btn">
-                <fa icon="fa-solid fa-angle-up" />
+                <fa name="fa-angle-up" scale="1.5"/>
             </div>
         </div>
     </transition>
