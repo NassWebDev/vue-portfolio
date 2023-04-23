@@ -56,7 +56,7 @@ const projects = ref([
     },
     {
         name: "Recipe App",
-        description: "Un site permettant d'ajouter différentes recettes et codé avec Vuejs et Firebase.",
+        description: "Un site permettant d'ajouter différentes recettes et codé avec Vuejs et interagissant avec un API codé avec Express lié à une DB de MongoDB.",
         languages: [
             "MongoDB",
             "ExpressJS",
