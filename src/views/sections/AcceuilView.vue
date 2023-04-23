@@ -66,7 +66,7 @@ section{
         }
 
         .school{
-            font-size: 25px;
+            font-size: 24px;
             display: flex;
             flex-direction: column;
             row-gap: 10px;
