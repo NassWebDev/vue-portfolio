@@ -16,7 +16,7 @@
             <ul>
                 <li v-for="alink in links" :key="alink.name">
                     <a :href=alink.link target="_blank" :aria-label=alink.name>
-                        <fa :icon="`fa-` + alink.type + ` fa-` + alink.name"/>
+                        <fa :name=alink.name />
                     </a>
                 </li>
             </ul>
