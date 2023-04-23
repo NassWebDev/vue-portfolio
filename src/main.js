@@ -2,12 +2,9 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faFolder } from '@fortawesome/free-regular-svg-icons'
-import { faAngleUp, faEnvelope, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
-import { faSquareGithub, faLinkedin, faHtml5, faCss3Alt, faSass, faJs, faVuejs, faPhp } from '@fortawesome/free-brands-svg-icons'
+import { OhVueIcon, addIcons } from "oh-vue-icons";
+import { FaHtml5, FaCss3Alt, FaSass, SiJavascript, FaVuejs, FaPhp, SiFirebase, SiExpress, SiMongodb, FaNode, FaRegularFolder, SiGithub, FaLinkedin, FaEnvelope, HiExternalLink } from "oh-vue-icons/icons";
 
-library.add(faAngleUp, faFolder, faEnvelope, faArrowUpRightFromSquare, faSquareGithub, faLinkedin, faHtml5, faCss3Alt, faSass, faJs, faVuejs, faPhp)
+addIcons(FaHtml5, FaCss3Alt, FaSass, SiJavascript, FaVuejs, FaPhp, SiFirebase, SiExpress, SiMongodb, FaNode, FaRegularFolder, SiGithub, FaLinkedin, FaEnvelope, HiExternalLink );
 
-createApp(App).component('fa', FontAwesomeIcon).use(router).mount('#app')
+createApp(App).component("fa", OhVueIcon).use(router).mount('#app')
