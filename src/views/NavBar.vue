@@ -62,7 +62,7 @@ aside{
         display: flex;
         flex-direction: column;
         align-items: center;
-        row-gap: 10px;
+        row-gap: 15px;
 
         img{
             width: 180px;
