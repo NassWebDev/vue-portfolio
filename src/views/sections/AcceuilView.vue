@@ -1,7 +1,7 @@
 <template>
     <section id="accueil">
         <img src="../../assets/kaydencats.webp" alt="kayden">
-        <div class="left">
+        <div class="post">
             <p>
             Bonjour,
             </p>
@@ -139,8 +139,12 @@ section{
             max-width: 300px;
         }
 
-        .left{
+        .post{
             font-size: 20px;
+
+            .school{
+                font-size: 18px;
+            }
         }
     }
 }
