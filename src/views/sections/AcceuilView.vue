@@ -9,7 +9,7 @@
                 Je suis <span>Nassim</span>
             </p>
             <p>
-                Développeur <span>Front-End</span>
+                Développeur <span>Full-Stack</span>
             </p>
             <div class="school">
                 <p>
@@ -56,7 +56,7 @@ section{
     position: relative;
     padding: 50px 80px 20px;
 
-    .left{
+    .post{
         display: flex;
         flex-direction: column;
         row-gap: 10px;
