@@ -141,6 +141,10 @@ section{
 
         .post{
             font-size: 20px;
+            
+            span{
+                color: var(--green);
+            }
 
             .school{
                 font-size: 18px;
