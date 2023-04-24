@@ -161,6 +161,7 @@ section{
 
                     .listLanguages{
                         display: flex;
+                        flex-wrap: wrap;
                         list-style: none;
                         column-gap: 20px;
                     }
