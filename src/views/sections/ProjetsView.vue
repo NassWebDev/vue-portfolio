@@ -63,7 +63,8 @@ const projects = ref([
             "VueJS(Router, Pinia)",
             "NodeJS"
         ],
-        github: "https://github.com/NassWebDev/recipe-app"
+        github: "https://github.com/NassWebDev/recipe-app",
+        link: "https://recipe-app-wa3h.vercel.app"
     },
     {
         name: "To-Do List",
