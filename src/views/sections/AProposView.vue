@@ -52,7 +52,7 @@ const frontEnd = ref([
         icon: 'si-javascript'
     },
     {
-        name: "VueJs",
+        name: "VueJS",
         icon: 'fa-vuejs'
     }
 ])
@@ -71,7 +71,7 @@ const backEnd = ref([
         icon: 'si-mongodb'
     },
     {
-        name: "Express",
+        name: "ExpressJS",
         icon: 'si-express'
     },
     {
