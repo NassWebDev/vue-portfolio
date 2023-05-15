@@ -64,7 +64,7 @@ const projects = ref([
             "NodeJS"
         ],
         github: "https://github.com/NassWebDev/recipe-app",
-        link: "https://recipe-app-wa3h.vercel.app"
+        link: "https://recipe-app-vue.onrender.com"
     },
     {
         name: "To-Do List",
