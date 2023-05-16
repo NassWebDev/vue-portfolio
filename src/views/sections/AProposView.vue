@@ -5,7 +5,7 @@
         </h1>
         <div class="about">
             <p>
-            Bonjour, je suis Nassim et je suis un <span>Développeur Full-Stack</span>. Je cherche à me spécialiser le plus possible dans divers technologies Web pouvant m'intéresser. En ce moment, je cherche une alternance pour un poste de développeur Full-Stack, dont une école pour un bachelor spécialisé dans le développement Web.
+            Bonjour, je suis Nassim et je suis un <span>Développeur Full-Stack</span>. Je cherche à me spécialiser le plus possible dans divers technologies Web pouvant m'intéresser. En ce moment, je cherche une alternance pour un poste de développeur Full-Stack.
             </p>
             <div class="languages">
                 <h2>

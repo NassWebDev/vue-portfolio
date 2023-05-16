@@ -3,7 +3,7 @@
         <header>
             <img src="../assets/kayden.webp" alt="kayden">
             <p class="name">Nassim</p>
-            <p class="post">Développeur Front-End</p>
+            <p class="post">Développeur Full-Stack</p>
         </header>
         <ul>
             <li v-for="item in navItems" :key="item" class="itemNav">
