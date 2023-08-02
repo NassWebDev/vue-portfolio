@@ -26,6 +26,15 @@
                         <p>{{ back.name }}</p>
                     </li>
                 </ul>
+                <h2>
+                    DataBases
+                </h2>
+                <ul class="databases">
+                    <li v-for="base in dataBase" :key="base.name">
+                        <fa :name=base.icon scale="1.8"/>
+                        <p>{{ base.name }}</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -52,23 +61,23 @@ const frontEnd = ref([
         icon: 'si-javascript'
     },
     {
+        name: "TypeScript",
+        icon: 'si-typescript'
+    },
+    {
         name: "VueJS",
         icon: 'fa-vuejs'
     }
 ])
 
 const backEnd = ref([
-{
+    {
+        name: "Nuxt",
+        icon: 'si-nuxtdotjs'
+    },
+    {
         name: "PHP",
         icon: 'fa-php'
-    },
-    {
-        name: "Firebase",
-        icon: 'si-firebase'
-    },
-    {
-        name: "MongoDB",
-        icon: 'si-mongodb'
     },
     {
         name: "ExpressJS",
@@ -78,6 +87,30 @@ const backEnd = ref([
         name: "NodeJS",
         icon: 'fa-node'
     }
+])
+
+const dataBase = ref([
+    {
+        name: "MongoDB",
+        icon: 'si-mongodb'
+    },
+    {
+        name: "Firebase",
+        icon: 'si-firebase'
+    },
+    {
+        name: "Supabase",
+        icon: 'si-supabase'
+    },
+        {
+        name: "MySQL",
+        icon: 'co-mysql'
+    },
+        {
+        name: "Prisma",
+        icon: 'si-prisma'
+    },
+    
 ])
 </script>
 
