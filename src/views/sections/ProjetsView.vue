@@ -55,7 +55,7 @@ const projects = ref([
         link: "https://vue-portfolio-eta.vercel.app"
     },
     {
-        name: "Cart Trader",
+        name: "Car Trader",
         description: "Un site E-Commerce mettant en vente différentes voitures, avec un système d'authentification.",
         languages: [
             "Nuxt 3, SupaBase, Prisma"
