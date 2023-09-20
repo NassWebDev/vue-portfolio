@@ -55,6 +55,14 @@ const projects = ref([
         link: "https://vue-portfolio-eta.vercel.app"
     },
     {
+        name: "Car Trader",
+        description: "Un site E-Commerce mettant en vente différentes voitures, avec un système d'authentification.",
+        languages: [
+            "Nuxt 3, SupaBase, Prisma"
+        ],
+        github: "https://github.com/NassWebDev/cartrader"
+    },
+    {
         name: "Recipe App",
         description: "Un site permettant d'ajouter différentes recettes et codé avec Vuejs et interagissant avec un API codé avec Express lié à une DB de MongoDB.",
         languages: [
@@ -66,14 +74,7 @@ const projects = ref([
         github: "https://github.com/NassWebDev/recipe-app",
         link: "https://recipe-app-vue.onrender.com"
     },
-    {
-        name: "To-Do List",
-        description: "Un To-Do List permettant d'écrire ses tâches, ainsi que leur priorité et la deadline. Fait en Vuejs.",
-        languages: [
-            "Vuejs(Router, VueX)"
-        ],
-        github: "https://github.com/NassWebDev/Vue-ToDo-List"
-    }
+
 ])
 </script>
 
