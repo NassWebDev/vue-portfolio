@@ -6,7 +6,7 @@
             </h1>
             <div class="contact">
                 <p>
-                    Recherchant actuellement un contrat d'apprentissage pour un poste de développeur Front-End, ma boîte de réception est ouverte. Si vous avez une question ou souhaitez m'offrir une opportunité, n'hésitez pas, je ferais de mon mieux pour vous répondre.
+                    Recherchant actuellement un contrat d'apprentissage pour un poste de développeur Full-Stack, ma boîte de réception est ouverte. Si vous avez une question ou souhaitez m'offrir une opportunité, n'hésitez pas, je ferais de mon mieux pour vous répondre.
                 </p>
                 <a href="mailto:mr.nedjar.nassim@gmail.com">
                     Contactez-moi !!!
