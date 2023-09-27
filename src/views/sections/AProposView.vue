@@ -196,6 +196,10 @@ section{
                 .back-end{
                     column-gap: 5px;
                 }
+
+                .databases{
+                    column-gap: 5px;
+                }
             }
         }
     }
