@@ -63,16 +63,14 @@ const projects = ref([
         github: "https://github.com/NassWebDev/cartrader"
     },
     {
-        name: "Recipe App",
-        description: "Un site permettant d'ajouter différentes recettes et codé avec Vuejs et interagissant avec un API codé avec Express lié à une DB de MongoDB.",
+        name: "Instant Gaming App",
+        description: "Un site permettant de voir les jeux du moment, les prochaines sorties, ainsi que leurs détails. Vous pouvez les mettre en favoris et acheter sur le site des développeurs. Le design a été copié de Instant Gaming",
         languages: [
-            "MongoDB",
-            "ExpressJS",
-            "VueJS(Router, Pinia)",
-            "NodeJS"
+            "Nuxt 3",
+            "Supabase",
         ],
-        github: "https://github.com/NassWebDev/recipe-app",
-        link: "https://recipe-app-vue.onrender.com"
+        github: "https://github.com/NassWebDev/nuxt_instant_gaming.git",
+        link: "https://nuxt-instant-gaming.vercel.app"
     },
 
 ])
