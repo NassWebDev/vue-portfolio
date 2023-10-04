@@ -69,8 +69,8 @@ const projects = ref([
             "Nuxt 3",
             "Supabase",
         ],
-        github: "https://github.com/NassWebDev/nuxt_instant_gaming.git"
-        // link: "https://nuxt-instant-gaming.vercel.app"
+        github: "https://github.com/NassWebDev/nuxt_instant_gaming.git",
+        link: "https://nuxt-instant-gaming.vercel.app"
     },
 
 ])
