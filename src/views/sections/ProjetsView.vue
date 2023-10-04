@@ -64,7 +64,7 @@ const projects = ref([
     },
     {
         name: "Instant Gaming App",
-        description: "Un site permettant de voir les jeux du moment, les prochaines sorties, ainsi que leurs détails. Vous pouvez les mettre en favoris et acheter sur le site des développeurs. Le design a été copié de Instant Gaming",
+        description: "Un site permettant de voir les jeux du moment, les prochaines sorties, ainsi que leurs détails. Vous pouvez les mettre en favoris et acheter sur le site des développeurs. Le design a été copié de Instant Gaming.",
         languages: [
             "Nuxt 3",
             "Supabase",
